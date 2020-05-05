@@ -221,19 +221,19 @@ const uint16_t touch_key_array[TOUCH_KEY_NUM] = {
 
 #if WAKEUP_GESTURE
 const uint16_t gesture_key_array[] = {
-	KEY_WAKEUP,
-	KEY_WAKEUP,
-	KEY_WAKEUP,
-	KEY_WAKEUP,
-	KEY_WAKEUP,
-	KEY_WAKEUP,
-	KEY_WAKEUP,
-	KEY_WAKEUP,
-	KEY_WAKEUP,
-	KEY_WAKEUP,
-	KEY_WAKEUP,
-	KEY_WAKEUP,
-	KEY_WAKEUP,
+	KEY_F1,  // C
+	KEY_F2,  // W
+	KEY_F3,  // V
+	KEY_F4,  // Double click
+	KEY_F5,  // Z
+	KEY_F6,  // M
+	KEY_F7,  // O
+	KEY_F8,  // e
+	KEY_F9,  // S
+	KEY_F10, // Slide up
+	KEY_F11, // Slide down
+	KEY_F12, // Slide left
+	KEY_F13, // Slide right
 };
 
 bool enable_gesture_mode = false;
